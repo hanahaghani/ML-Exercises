@@ -1,20 +1,20 @@
-# Life Satisfaction vs. GDP – Linear Regression
+Life Satisfaction vs. GDP – Linear Regression
 
 This project demonstrates how to use **Linear Regression** (from scikit-learn) to analyze the relationship between **GDP per capita** and **Life Satisfaction**. The dataset comes from the [lifesat.csv](lifesat.csv) file.
 
-## 📌 Project Overview
+📌 Project Overview
 
 * Loads the dataset (`lifesat.csv`) containing GDP per capita and life satisfaction scores.
 * Visualizes the relationship between GDP and life satisfaction using a scatter plot.
 * Trains a simple **Linear Regression model** to fit the data.
 * Uses the model to **predict life satisfaction** for a given GDP per capita value.
 
-## 📂 Files
+ 📂 Files
 
 * `lifesat.csv` – dataset containing GDP per capita and life satisfaction values.
 * `lifesat_regression.py` – Python script with data loading, visualization, model training, and prediction.
 
-## ⚙️ Requirements
+⚙️ Requirements
 
 Make sure you have Python installed (>=3.8). Install the required libraries:
 
@@ -22,7 +22,7 @@ Make sure you have Python installed (>=3.8). Install the required libraries:
 pip install pandas numpy matplotlib scikit-learn
 ```
 
-## ▶️ How to Run
+▶️ How to Run
 
 Run the script from the terminal or an IDE:
 
@@ -36,12 +36,10 @@ This will:
 2. Train a linear regression model.
 3. Print the predicted life satisfaction for a GDP per capita of **37,655.2 USD (2020 value)**.
 
-## 📊 Example Output
+📊 Example Output
 
 ```text
 [[6.29]]
 ```
 
-*(The actual value may vary depending on the dataset.)*
 
----
